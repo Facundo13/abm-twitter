@@ -17,7 +17,6 @@
     border: none;
     padding: 5px 20px;
     font-weight: bold;
-    background-color: #33C3F0;
     color: #fff;
 }
 
@@ -26,6 +25,7 @@
 }
 
 .btn-add{
+    background-color: #33C3F0;
     width: 100%;
 }
 
@@ -35,25 +35,27 @@
 
 
 .btn-delete{
-    height: 35px;
-    background-color: #f02;
+    color: #f02;
+    background-color: #fff;
 }
 
-.btn-delete:hover{
-    background-color: #f40;
-
-}
 
 .btn-save{
-    background-color: #0f5;
-    height: 35px;
-}
-
-.btn-save:hover{
-    background-color: #0fb;
+    background-color: #fff;
+    color: #0fb;
 }
 
 
+.disabled{
+    background-color: #fff;
+    color: gray;
+}
+
+.disabled:hover{
+    background-color: #fff;
+    color: gray;
+    cursor: inherit;
+}
 
 
 
